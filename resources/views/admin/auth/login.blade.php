@@ -46,7 +46,7 @@ Admin login
                     {!! Form::close() !!}
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-12 margin-top-10">
-                            {!! link_to_route('user.reminder.process','Forgot password?') !!}
+							{!! link_to_route('user.recovery-password','Forgot password?') !!}
                        </div>
                    </div>
                 </div>
